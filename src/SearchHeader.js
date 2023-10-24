@@ -3,7 +3,7 @@ import { useState } from "react";
 
 
 const SearchHeader = ({ search }) => {
-  const [valueInput, setValue] = useState("");
+  const [valueInput, setValue] = useState('');
 
   const handleFormSubmit = (event) => {
     event.preventDefault();

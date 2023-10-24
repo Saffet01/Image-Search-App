@@ -17,3 +17,12 @@
   border-radius: 8px;
   height: 24px;
 }
+
+.imageList{
+  columns: 250px 5;
+  column-gap: 10px;
+}
+
+.ImageListImg{
+  width: 100%;
+}
